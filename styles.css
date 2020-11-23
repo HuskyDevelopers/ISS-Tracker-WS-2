@@ -11,7 +11,7 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 h1 {
-    position: absolute;
+    position: absolute; 
     top: 2rem;
     font-size: 3rem;
     color: #ffae00;
@@ -26,6 +26,6 @@ div {
     text-align: center;
 }
 #mapid {
-    height: 450px;
-    width: 700px;
+    height: 250px;
+    width: 600px;
 }
