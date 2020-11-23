@@ -37,8 +37,8 @@ async function getISSLocation() {
     const data = await response.json();
     const iss_Lat = data.latitude;
     const iss_Long = data.longitude;
-    latitude_element.innerText = iss_Lat.toFixed(6);
-    longitude_element.innerText = iss_Long.toFixed(6);
+    latitude_element.innerText = 'Latitude: ' + iss_Lat.toFixed(6);
+    longitude_element.innerText = 'Longitude: ' + iss_Long.toFixed(6);
 
     marker.setLatLng([iss_Lat, iss_Long]);
     circle.setLatLng([iss_Lat, iss_Long]);
