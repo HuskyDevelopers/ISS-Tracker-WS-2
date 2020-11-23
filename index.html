@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marwynn Somridhivej">
+    <meta property="og:title" content="ISS Tracker" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ms-iss.surge.sh" />
+    <meta property="og:image" content="https://ms-iss.surge.sh/images/ISS_emblem.png" />
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,700;1,300;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/ISS_emblem.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+    <script defer src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <script defer src="js/main.js"></script>
+    <title>ISS Tracker</title>
+</head>
+
+<body>
+    <h1 class="centered-text">Husky Developers ISS Tracker</h1>
+    <div class="container">
+        <div id="map">
+            <div id="mapid"></div>
+        </div>
+        <div id="info">
+            <p class="coords" id="latitude"><strong>Latitude: </strong><code>Fetching Data...</code></p>
+            <p class="coords" id="longitude"><strong>Longitude: </strong><code>Fetching Data...</code></p>
+        </div>
+    </div>
+    <footer>
+        <p class="centered-text">By Marwynn Somridhivej</p>
+    </footer>
+</body>
+
+</html>

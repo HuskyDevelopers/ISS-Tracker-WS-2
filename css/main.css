@@ -1,0 +1,52 @@
+:root {
+    --ff: 'Titillium Web', sans-serif;
+    --lb: #BEE9FF;
+    --discord: #363940;
+}
+
+* {
+    font-family: var(--ff);
+    color: whitesmoke;
+}
+
+body {
+    background-color: var(--discord);
+}
+
+h1 {
+    font-size: 69px;
+    font-family: var(--ff);
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.container #map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+code {
+    color: var(--lb);
+    font-size: 120%;
+    font-family: 'Fira Code', monospace;
+}
+
+#map {
+    background: none;
+}
+
+#mapid {
+    height: 450px;
+    width: 700px;
+}
+
+#info {
+    text-align: center;
+}
+
+.coords {
+    font-size: 30px;
+}
