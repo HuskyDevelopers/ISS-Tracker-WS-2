@@ -10,12 +10,14 @@ var icon = L.icon({
     iconSize: [75, 48],
     iconAnchor: [37.5, 22.5],
 });
+
 var redCircle = {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.15,
     radius: 2200 * 1000,
 };
+
 const marker = L.marker([0, 0], { icon: icon }).addTo(map);
 const circle = L.circle([0, 0], redCircle).addTo(map);
 
@@ -43,9 +45,8 @@ async function getData() {
     marker.setLatLng([lat, long]);
     circle.setLatLng([lat, long]);
 
-    document.getElementById("latitude").innerHTML = `<strong>Latitude: </strong><code>${lat}</code>` || "Not Available";
-    document.getElementById("longitude").innerHTML = `<strong>Longitude:</strong><code> ${long}</code>` || "Not Available";
-
+    document.getElementById("latitude").innerHTML = `<strong>Latitude: </strong><code>${Math.round(lat * 10000) / 10000}</code>` || "Not Available";
+    document.getElementById("longitude").innerHTML = `<strong>Longitude:</strong><code> ${Math.round(long * 10000) / 10000}</code>` || "Not Available";
 };
 
-setInterval(getData, 1500);
+setInterval(getData, 2000);
