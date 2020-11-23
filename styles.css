@@ -1,15 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
-<<<<<<< HEAD
-* {
-    box-sizing: border-box;
-}
-=======
 
 * {
     box-sizing: border-box;
 }
 
->>>>>>> 334d726be6ce4a65563dc61734b03fcbbb3e106c
 body {
     display: flex;
     justify-content: center;
@@ -18,10 +12,6 @@ body {
     background-color: #18292c;
     font-family: 'Nunito', sans-serif;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 334d726be6ce4a65563dc61734b03fcbbb3e106c
 h1 {
     position: absolute;
     top: 2rem;
@@ -29,12 +19,8 @@ h1 {
     color: #ffae00;
     font-weight: bold;
 }
-<<<<<<< HEAD
-div {
-=======
 
 .container {
->>>>>>> 334d726be6ce4a65563dc61734b03fcbbb3e106c
     color: rgba(255, 255, 255, 0.877);
     font-weight: bold;
     font-size: 150%;
@@ -42,10 +28,6 @@ div {
     align-self: center;
     text-align: center;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 334d726be6ce4a65563dc61734b03fcbbb3e106c
 #mapid {
     height: 450px;
     width: 700px;
